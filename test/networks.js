@@ -12,6 +12,7 @@ describe('Networks', function() {
   it('should contain all Networks', function() {
     should.exist(networks.livenet);
     should.exist(networks.testnet);
+    should.exist(networks.dashlive);
     should.exist(networks.defaultNetwork);
   });
 
